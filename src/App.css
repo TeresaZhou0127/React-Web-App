@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.model-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 1rem;
+  border: 1px solid;
+}
+
+.all-models {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;;
+}
+
+.new-model-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center-button {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid;
+}
+
+.all-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex;
+  justify-content: center;
+}
+
+.upload-label {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted black;
+  border-radius: 20px;
+  width: 15rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: large;
+}
+
+.upload-input {
+  display: none;
+}
+
+.register-label {
+  text-align: left;
+}
+
+.new-content {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid;
+  justify-content: center;
+}
